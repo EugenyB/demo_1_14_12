@@ -26,5 +26,9 @@ public class Main {
         int[] arr = {5,2,8,4,1,-1,7};
         int min = MyMath.findMin(arr);
         System.out.println("min = " + min);
+        System.out.println("-----------------------------");
+        double v = MyCalc.calcPi(10_000_000_000L);
+        System.out.println("v = " + v);
+        System.out.println("P = " + Math.PI);
     }
 }
