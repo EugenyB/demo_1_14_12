@@ -22,5 +22,9 @@ public class Main {
         double[][] product = matrix.product(a, b);
         matrix.print(product);
         ///
+        System.out.println("-----------------------------");
+        int[] arr = {5,2,8,4,1,-1,7};
+        int min = MyMath.findMin(arr);
+        System.out.println("min = " + min);
     }
 }
