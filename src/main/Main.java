@@ -27,8 +27,11 @@ public class Main {
         int min = MyMath.findMin(arr);
         System.out.println("min = " + min);
         System.out.println("-----------------------------");
-        double v = MyCalc.calcPi(10_000_000_000L);
+        long start = System.currentTimeMillis();
+        double v = MyCalc.calcPi(1_000_000_000);
+        long finish = System.currentTimeMillis();
         System.out.println("v = " + v);
         System.out.println("P = " + Math.PI);
+        System.out.println(finish-start);
     }
 }
